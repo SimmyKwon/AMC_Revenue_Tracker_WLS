@@ -26,7 +26,7 @@ To overcome severe historical noise (e.g., post-pandemic recovery, streaming win
 ### 2. Model Optimization & Feature Diagnostics (RFE & Model Diet)
 * **Iterative Feature Selection:** Evaluated feature sets using Recursive Feature Elimination (RFE).
 * **Noise Reduction (Model Diet):** Eliminated statistically non-significant variables (e.g., `BlockBuster_Dominance_Ratio` with $p = 0.115$ and counter-intuitive negative coefficient) to prevent variance inflation.
-* **Final Feature Set:** `Average_Gross_Per_Theater` ($p < 0.001$), `Movie_Count_Quarter` ($p = 0.001$), and `CPI_Quarter` ($p = 0.004$).
+* **Final Feature Set:** `Average_Gross_Per_Theater` ($p < 0.001$), `Movie_Count_Quarter` ($p = 0.002$), and `CPI_Quarter` ($p < 0.001$).
 
 ### 3. Time-Weighted WLS & LOOCV
 * **Time-Variant Weighting:** Implemented geometrically decaying weights to dynamically prioritize recent post-pandemic market dynamics over stale historical trends.
