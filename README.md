@@ -53,8 +53,8 @@ To overcome severe historical noise (e.g., post-pandemic recovery, streaming win
 ## 📁 Repository Structure
 
 ```text
-├── data/                  # Scraped Box Office Mojo & CPI datasets
 ├── notebooks/             # Jupyter Notebooks (Data Scraping, Feature Engineering, WLS Model)
-├── reports/               # Full 20-Page Comprehensive Write-up (PDF)
-├── src/                   # Python scripts for data processing and modeling
+    ├── Web_Scraper.ipynb  # Web scraper collecting data from BoxOfficeMojo
+    ├── Modelling.ipynb    # Data aggregation from external sources, and train and validate the model with the combined dataset
 └── README.md              # Project Overview
+```
