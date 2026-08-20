@@ -1,6 +1,6 @@
 # 🎬 AMC Revenue Forecasting Tracker: Box-Office Proxy & WLS Modeling
 
-![Python](https://img.shields.io/badge/Python-3.9+-3776AB?style=flat&logo=python&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3.11-3776AB?style=flat&logo=python&logoColor=white)
 ![Statsmodels](https://img.shields.io/badge/Statsmodels-WLS-blue)
 ![Validation](https://img.shields.io/badge/LOOCV_R²-0.93-brightgreen)
 
